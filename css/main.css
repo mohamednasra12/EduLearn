@@ -204,6 +204,10 @@ html {
   font-size: 0.9rem;
   margin: 0;
   padding: 0;
+  transition: 0.4s;
+}
+.video-1 {
+  margin-top: 2rem;
 }
 .sidebar .nav-pills .nav-item .nav-link {
   text-align: start;
@@ -1215,6 +1219,97 @@ button.btn.btn-primary.fond:hover {
   font-family: "regular"; 
   color: #9a9ea4;
 }
+.card-curses-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  margin-top: 2rem;
+  padding: 1rem;
+  gap: 10px;
+  border-radius: 10px;
+}
+.text-curses h4 {
+  font-family: "regular";
+  font-size: 1.2rem;
+}
+.text-curses p {
+  font-family: "regular";
+  color: #707070;
+  font-size: 0.9rem;
+}
+.skill-main {
+  margin-top: 37px;
+  width: 54%;
+}
+*, ::after, ::before 
+.skill-main {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-inline-start: 17px;
+  margin-top: -19px;
+}
+.skill-main .skill-wrrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.skill-main .skill-wrrap .skill-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.skill-main .skill-wrrap .skill-bar {
+  height: 9px;
+  background-color: 
+  #D9D9D9;
+  border-radius: 8px;
+}
+.skill-main .skill-wrrap .skill-per {
+  height:9px;
+  background: 
+  #5392FB;
+  border-radius: 8px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+.skill-main .skill-wrrap .skill-per:before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #23576f;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 4px;
+  top: -32px;
+  right: 11px;
+  transform: translateX(50%);
+}
+.skill-main .skill-wrrap .skill-per:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #23576f;
+  top: -9px;
+    right: 10px;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+.nav-item:hover {
+  background-color: 
+  #4084f8; /* Background color on hover */
+}
+
+.nav-item:hover .nav-link span,
+.nav-item:hover .nav-link  {
+  color: white !important; /* Text and icon color on hover */
+}
+
+
 @media only screen and (max-width: 1440px) {
   .sidebar.open,
   .sidebar.opened {
