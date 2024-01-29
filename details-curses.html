@@ -29,6 +29,11 @@
     />
     <!-- font -->
   </head>
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
   <body>
     <div class="d-flex sidemobile p-0">
       <!-- ======= Start Sidebar ======= -->
@@ -51,25 +56,19 @@
             </div>
           </li>
           <li class="nav-item">
-            <a href="index.html" class="nav-link align-middle">
+            <a href="home.html" class="nav-link align-middle">
               <i class="fa-solid fa-house"></i>
               <span>الرئيسية</span>
             </a>
           </li>
           <li class="nav-item">
-            <a href="lessons.html" class="nav-link align-middle">
+            <a href="corsaty.html" class="nav-link align-middle">
               <i class="fa-solid fa-video"></i>
               <span>كورساتي</span>
             </a>
           </li>
           <li class="nav-item">
-            <a href="grade.html" class="nav-link align-middle">
-              <i class="fa-solid fa-bell"></i>
-              <span>الاشعارات</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="subjects.html" class="nav-link align-middle">
+            <a href="#" class="nav-link align-middle">
               <i class="fa-solid fa-gear"></i>
               <span>اعدادات الحساب</span>
             </a>
@@ -141,7 +140,7 @@
           <div class="container">
             <div class="goback">
               <i class="fa-solid fa-chevron-right"></i>
-              <a href="#"><p>العودة</p></a>
+              <a href="home.html"><p>العودة</p></a>
             </div>
             <div class="spourt">
               <div class="row">
@@ -173,12 +172,16 @@
                       </div>
                     </div>
                     <div class="btn-details">
-                      <button type="button" class="btn btn-primary">
-                        اشترك الآن
-                      </button>
-                      <button type="button" class="btn btn-primary">
-                        شراء الكورس
-                      </button>
+                      <a href="Join-course.html">
+                        <button type="button" class="btn btn-primary">
+                          اشترك الآن
+                        </button>
+                      </a>
+                      <a href="Join-course.html">
+                        <button type="button" class="btn btn-primary">
+                          شراء الكورس
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -236,7 +239,6 @@
                     id="flush-collapseOne"
                     class="accordion-collapse collapse"
                     aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
                       <div class="course-header">
@@ -356,88 +358,87 @@
                     id="flush-collapseTwo"
                     class="accordion-collapse collapse"
                     aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                        <div class="course-header">
-                            <h4>محتوي الفصل</h4>
+                      <div class="course-header">
+                        <h4>محتوي الفصل</h4>
+                      </div>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/video.svg" alt="" />
+                                <h5>فيديو لشرح الحصة الاولى فى الفصل الاول</h5>
+                              </div>
+                            </div>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
+                            </div>
                           </div>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/video.svg" alt="" />
-                                    <h5>فيديو لشرح الحصة الاولى فى الفصل الاول</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
+                          <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                      </a>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/ssss.svg" alt="" />
+                                <h5>امتحان على الحصة الاولى</h5>
                               </div>
-                              <i class="fa-solid fa-chevron-left"></i>
                             </div>
-                          </a>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/ssss.svg" alt="" />
-                                    <h5>امتحان على الحصة الاولى</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
+                            </div>
+                          </div>
+                          <i class="fa-solid fa-lock"></i>
+                        </div>
+                      </a>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/ggggggg.svg" alt="" />
+                                <h5>مذكرة لقراءة محتويات الحصة الاولى</h5>
                               </div>
-                              <i class="fa-solid fa-lock"></i>
                             </div>
-                          </a>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/ggggggg.svg" alt="" />
-                                    <h5>مذكرة لقراءة محتويات الحصة الاولى</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
+                            </div>
+                          </div>
+                          <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                      </a>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/sqqqqqq.svg" alt="" />
+                                <h5>امتحان على الحصة الاولى</h5>
                               </div>
-                              <i class="fa-solid fa-chevron-left"></i>
                             </div>
-                          </a>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/sqqqqqq.svg" alt="" />
-                                    <h5>امتحان على الحصة الاولى</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
-                              </div>
-                              <i class="fa-solid fa-lock"></i>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
                             </div>
-                          </a>
+                          </div>
+                          <i class="fa-solid fa-lock"></i>
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -476,88 +477,87 @@
                     id="flush-collapseThree"
                     class="accordion-collapse collapse"
                     aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                        <div class="course-header">
-                            <h4>محتوي الفصل</h4>
+                      <div class="course-header">
+                        <h4>محتوي الفصل</h4>
+                      </div>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/video.svg" alt="" />
+                                <h5>فيديو لشرح الحصة الاولى فى الفصل الاول</h5>
+                              </div>
+                            </div>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
+                            </div>
                           </div>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/video.svg" alt="" />
-                                    <h5>فيديو لشرح الحصة الاولى فى الفصل الاول</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
+                          <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                      </a>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/ssss.svg" alt="" />
+                                <h5>امتحان على الحصة الاولى</h5>
                               </div>
-                              <i class="fa-solid fa-chevron-left"></i>
                             </div>
-                          </a>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/ssss.svg" alt="" />
-                                    <h5>امتحان على الحصة الاولى</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
+                            </div>
+                          </div>
+                          <i class="fa-solid fa-lock"></i>
+                        </div>
+                      </a>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/ggggggg.svg" alt="" />
+                                <h5>مذكرة لقراءة محتويات الحصة الاولى</h5>
                               </div>
-                              <i class="fa-solid fa-lock"></i>
                             </div>
-                          </a>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/ggggggg.svg" alt="" />
-                                    <h5>مذكرة لقراءة محتويات الحصة الاولى</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
+                            </div>
+                          </div>
+                          <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                      </a>
+                      <a class="link" href="#">
+                        <div class="all-d">
+                          <div class="ss">
+                            <div class="body-content">
+                              <div class="more">
+                                <img src="img/sqqqqqq.svg" alt="" />
+                                <h5>امتحان على الحصة الاولى</h5>
                               </div>
-                              <i class="fa-solid fa-chevron-left"></i>
                             </div>
-                          </a>
-                          <a class="link" href="#">
-                            <div class="all-d">
-                              <div class="ss">
-                                <div class="body-content">
-                                  <div class="more">
-                                    <img src="img/sqqqqqq.svg" alt="" />
-                                    <h5>امتحان على الحصة الاولى</h5>
-                                  </div>
-                                </div>
-                                <div class="details-body">
-                                  <img src="img/clock.svg" alt="" />
-                                  <p><span>مدة الفيديو</span> : 20 دقيقة</p>
-                                  <img src="img/profile-2user.svg" alt="" />
-                                  <p><span>اجمالى المشاهدات </span> : 3</p>
-                                </div>
-                              </div>
-                              <i class="fa-solid fa-lock"></i>
+                            <div class="details-body">
+                              <img src="img/clock.svg" alt="" />
+                              <p><span>مدة الفيديو</span> : 20 دقيقة</p>
+                              <img src="img/profile-2user.svg" alt="" />
+                              <p><span>اجمالى المشاهدات </span> : 3</p>
                             </div>
-                          </a>
+                          </div>
+                          <i class="fa-solid fa-lock"></i>
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>

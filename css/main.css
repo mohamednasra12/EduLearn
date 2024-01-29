@@ -229,13 +229,11 @@ html {
   margin: 0 auto;
 }
 .sidebar .nav-pills .nav-item .nav-link.active {
-  border-inline-end: 0;
-  background-color: rgba(255, 255, 255, 0.12);
-  border-inline-end: 3px solid #fff;
-  border-radius: 0;
+  background-color: #4084f8;
 }
 .sidebar .nav-pills .nav-item .nav-link.active span {
   font-family: "semibold";
+  color: white;
 }
 
 .sidebar.open ~ .index_cards,
@@ -658,7 +656,7 @@ footer .title .img-title img {
 .control-icon .right {
   position: absolute;
   top: 13px;
-  right: 10px;
+  right: -12px;
   color: rgba(83, 146, 251, 1);
 }
 .control-icon-pass {
@@ -996,7 +994,7 @@ select.form-select.head {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:90vh;
+  height: 90vh;
 }
 .goback {
   display: flex;
@@ -1216,14 +1214,14 @@ button.btn.btn-primary.fond:hover {
   margin-top: 7rem;
 }
 .not-found p {
-  font-family: "regular"; 
+  font-family: "regular";
   color: #9a9ea4;
 }
 .card-curses-1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   margin-top: 2rem;
   padding: 1rem;
   gap: 10px;
@@ -1242,8 +1240,9 @@ button.btn.btn-primary.fond:hover {
   margin-top: 37px;
   width: 54%;
 }
-*, ::after, ::before 
-.skill-main {
+*,
+::after,
+::before .skill-main {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -1263,14 +1262,12 @@ button.btn.btn-primary.fond:hover {
 }
 .skill-main .skill-wrrap .skill-bar {
   height: 9px;
-  background-color: 
-  #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 8px;
 }
 .skill-main .skill-wrrap .skill-per {
-  height:9px;
-  background: 
-  #5392FB;
+  height: 9px;
+  background: #5392fb;
   border-radius: 8px;
   width: 0;
   transition: 1s linear;
@@ -1295,21 +1292,39 @@ button.btn.btn-primary.fond:hover {
   height: 10px;
   background-color: #23576f;
   top: -9px;
-    right: 10px;
+  right: 10px;
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
 }
 .nav-item:hover {
-  background-color: 
-  #4084f8; /* Background color on hover */
+  background-color: #4084f8; /* Background color on hover */
 }
 
 .nav-item:hover .nav-link span,
-.nav-item:hover .nav-link  {
+.nav-item:hover .nav-link {
   color: white !important; /* Text and icon color on hover */
 }
-
-
+.modal-body.out {
+  text-align: center;
+}
+.modal-body.out h4 {
+  font-family: "regular";
+}
+button.btn.PrimaryButton {
+  margin-top: 10px;
+  background-color: #4084f8;
+  color: white;
+  font-family: "regular";
+  transition: 0.7s;
+}
+button.btn.PrimaryButton:hover {
+  background-color: white;
+  color: #4084f8;
+  border: 1px solid #4084f8;
+}
+.modal-dialog.out {
+  margin-top: 215px;
+}
 @media only screen and (max-width: 1440px) {
   .sidebar.open,
   .sidebar.opened {
@@ -1391,6 +1406,12 @@ button.btn.btn-primary.fond:hover {
   .sidebar .nav-pills .nav-link span {
     display: block;
     margin: 0;
+  }
+  .prg p {
+    width: 100%;
+  }
+  .adress {
+    flex-wrap: wrap;
   }
 }
 
