@@ -841,6 +841,7 @@ button#dropdownMenuButton1 {
 }
 button#dropdownMenuButton1 p {
   margin-bottom: 0;
+  font-size: 0.7rem;
 }
 .word-logo h4 {
   text-align: center;
@@ -937,6 +938,22 @@ select.form-select.head {
   font-family: "regular";
   color: #5392fb;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .menu {
+  border: 1.5px solid rgba(50, 100, 235, 0.158);
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
 .text-card-gology h4 {
   font-family: "regular";
   font-size: 1.2rem;
@@ -965,7 +982,7 @@ select.form-select.head {
 .icons {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 5px;
   flex-wrap: wrap;
 }
 .icons-gology p {
@@ -1082,6 +1099,7 @@ button.accordion-button.collapsed {
 .header-course {
   font-family: "regular";
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 .accordion-body {
   border-top: 1px solid;
@@ -1357,7 +1375,8 @@ button.btn.btn-primary.fond:hover {
   video {
     margin-top: 12px;
   }
-  nav.navbar {
-    justify-content: end;
+
+  button#dropdownMenuButton1 {
+    display: block;
   }
 }
