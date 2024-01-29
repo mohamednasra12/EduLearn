@@ -1495,4 +1495,7 @@ button.btn.PrimaryButton:hover {
   button#dropdownMenuButton1 {
     display: block;
   }
+  .card-curses-1 {
+    flex-wrap: wrap;
+  }
 }
