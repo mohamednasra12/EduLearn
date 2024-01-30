@@ -985,7 +985,6 @@ select.form-select.head {
 .icons {
   display: flex;
   align-items: center;
-  gap: 5px;
   flex-wrap: wrap;
 }
 .icons-gology p {
@@ -1965,9 +1964,7 @@ h4.h4 {
   button.accordion-button.collapsed {
     padding: 0;
   }
-  .icons {
-    gap: 3px;
-  }
+  
   .more h5 {
     font-size: 0.8rem;
   }
@@ -1987,4 +1984,8 @@ h4.h4 {
   .card-curses-1 {
     flex-wrap: wrap;
   }
+  .parent-logo-main {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
 }
