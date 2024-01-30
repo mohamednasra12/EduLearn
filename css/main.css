@@ -230,10 +230,11 @@ html {
 }
 .sidebar .nav-pills .nav-item .nav-link.active {
   background-color: #4084f8;
+color: white;
 }
 .sidebar .nav-pills .nav-item .nav-link.active span {
   font-family: "semibold";
-  color: white;
+  color: white !important;
 }
 
 .sidebar.open ~ .index_cards,
@@ -786,7 +787,7 @@ input::-webkit-inner-spin-button {
   margin-top: 1rem;
 }
 .resend a {
-  color: #06797e;
+  color: #4084f8;
   font-family: "regular";
 }
 fieldset.number-code {
@@ -1300,6 +1301,7 @@ button.btn.btn-primary.fond:hover {
   background-color: #4084f8; /* Background color on hover */
 }
 
+
 .nav-item:hover .nav-link span,
 .nav-item:hover .nav-link {
   color: white !important; /* Text and icon color on hover */
@@ -1325,6 +1327,493 @@ button.btn.PrimaryButton:hover {
 .modal-dialog.out {
   margin-top: 215px;
 }
+
+/* seiting */
+.shape-tab .title-bab {
+  display: flex;
+  align-items: center;
+  background-color: #4084f8;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 0.5rem 1rem;
+  gap: 10px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgba(6, 121, 126, 0.1);
+  border-radius: 0;
+  /* border-left: 1px solid black; */
+  /* height: 10px; */
+  position: relative;
+}
+.shape-tab .seting {
+  display: flex;
+  align-items: center;
+}
+.nav-link h5 {
+  font-family: "regular";
+  font-size: 14px;
+  /* padding-right: 0.8rem; */
+  padding: 0.8rem;
+  /* border-bottom: 1px solid #E0E0E0; */
+}
+.shape-tab {
+  border: 1px solid #4084f8;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+.shape-tab .title-bab .user h5 {
+  font-family: "regular";
+  font-size: 14px;
+  color: white;
+}
+.shape-tab .title-bab .user h6 {
+  font-family: "light";
+  font-size: 12px;
+  color: #f3f3f3;
+}
+.nav-link .out {
+  color: #ed1c24 !important;
+}
+.parent .h4 {
+  font-family: "regular";
+  margin: 2rem 0;
+  font-size: 20px;
+}
+.tab-content {
+  border: 1px solid #4084f8;
+  border-radius: 5px;
+  border-bottom-left-radius: 10px;
+}
+.tab-content .tab-pane .head-tab {
+  background-color: #4084f8;
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.avatar-upload .avatar-preview {
+  width: 105px;
+  height: 115px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #f8f8f8;
+  /* box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1); */
+}
+.tab-content .name .btn-success:hover {
+  background-color: transparent;
+  color: #4084f8 !important;
+  border: 1px solid #4084f8;
+  transition: 0.7s ease-in-out;
+}
+.avatar-edit .btn {
+  background-color: #4084f8;
+  color: white;
+  transition: 0.7s ease-in-out;
+}
+.old-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.old-child .details-child {
+  display: flex;
+}
+.old-child .details-child h6 {
+  font-family: "regular";
+  font-size: 13px;
+  padding-left: 1rem;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  height: 35px;
+  margin-bottom: 0;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  font-family: "regular";
+  transition: all 0.2s ease-in-out;
+  font-size: 14px;
+  border-radius: 35px;
+  /* padding: 1rem; */
+}
+.avatar-upload {
+  position: relative;
+  margin: 25px auto;
+}
+.name {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab-content .name .btn-success {
+  background-color: #4084f8;
+  padding: 10px 45px;
+  border-radius: 33px;
+  margin: 1rem 0 2rem;
+  font-family: "regular";
+  font-size: 15px;
+  box-shadow: unset;
+  transition: 0.7s ease-in-out;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  bottom: -40px;
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tab-content .tab-pane .head-tab h6 {
+  color: white;
+  font-family: "semibold";
+  font-size: 20px;
+  padding: 25px;
+  margin: 0;
+  /* border-radius: 10px; */
+  border-top-right-radius: 10px;
+}
+.old-child .child .name-clid h5 {
+  font-family: "regular";
+  font-size: 15px;
+}
+.old-child .child .name-clid p {
+  font-family: "regular";
+  font-size: 13px;
+  color: #656565;
+}
+.tab-pane .btn-success {
+  background-color: #4084f8;
+  padding: 10px 50px;
+  border-radius: 33px;
+  margin: 1rem 0 2rem;
+  font-family: "regular";
+  font-size: 15px;
+  box-shadow: unset;
+  transition: 0.7s ease-in-out;
+  margin: 0 1rem 2rem;
+}
+.tab-pane .btn-success:hover {
+  background-color: transparent;
+  color: #4084f8 !important;
+  border: 1px solid #4084f8;
+  transition: 0.7s ease-in-out;
+}
+.bord {
+  width: 35%;
+
+  /* height: 100%; */
+  padding: 1px;
+}
+.chat-of-massege .status-of-teacher {
+  display: flex;
+  border-bottom: 2px solid #4084f8;
+  /* align-items: center; */
+}
+.wats-chat .date {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tab-of-masseges {
+  display: flex;
+}
+.chat-of-massege {
+  width: 65%;
+  border-right: 2px solid #4084f8;
+  border-bottom-left-radius: 10px;
+  margin: 0 1px;
+  /* height: 100%; */
+  /* padding: 1px; */
+}
+
+.chat-of-massege .status-of-teacher .img {
+  width: 10%;
+  margin: 1rem;
+}
+.status-of-teacher .list-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 1rem;
+}
+.wats-chat .date {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.wats-chat .quesion {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 1rem 1rem 0.2rem;
+  width: fit-content;
+  margin: 1rem;
+}
+.wats-chat .anser-flex {
+  display: flex;
+  justify-content: end;
+}
+.wats-chat .send-massge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  margin-top: 7rem;
+}
+.wats-chat .send-massge .tlegram {
+  background-color: #4084f8;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 10px;
+}
+.wats-chat .anser {
+  background-color: #4084f8;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem 1rem 0.2rem;
+  margin: 1rem;
+}
+.all-teachers {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+}
+.all-meaasae h4 {
+  font-family: "semibold";
+  font-size: 20px;
+  padding-right: 1rem;
+  margin: 1rem 0;
+}
+.name-teacher {
+  display: flex;
+  justify-content: space-between;
+}
+.explain-teacher {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(172, 172, 172, 1);
+}
+.status-name-teacher h4 {
+  font-family: "semibold";
+  font-size: 12px;
+}
+.status-name-teacher p {
+  font-family: "regular";
+  font-size: 12px;
+  color: #656565;
+}
+.all-teachers .teacher h5 {
+  font-family: "regular";
+  font-size: 12px;
+}
+.explain-teacher h6 {
+  font-family: "light";
+  font-size: 12px;
+  color: #656565;
+}
+.explain-teacher p {
+  font-family: "medium";
+  font-size: 10px;
+  padding: 3px;
+  color: white;
+  background-color: #4084f8;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.all-teachers .teacher h6 {
+  font-family: "light";
+  font-size: 12px;
+  color: #656565;
+}
+.wats-chat .date p {
+  font-family: "regular";
+  font-size: 10px;
+  color: #656565;
+  border: 1px solid #656565;
+  border-radius: 10px;
+  padding: 1px 16px;
+  margin: 1rem;
+}
+.wats-chat .quesion h6 {
+  font-family: "regular";
+  font-size: 14px;
+}
+.wats-chat .anser-flex h6 {
+  font-family: "regular";
+  font-size: 14px;
+}
+.wats-chat .quesion p {
+  font-family: "regular";
+  font-size: 9px;
+}
+.wats-chat .anser-flex p {
+  font-family: "regular";
+  font-size: 9px;
+}
+input.form-control {
+  margin-top: 1rem;
+  border-radius: 33px;
+  padding: 0.75rem;
+  background-color: #f7f7f7;
+  padding-right: 40px;
+  border: unset;
+  font-family: "light";
+  font-size: 13px;
+}
+.tab-content .password .btn-success {
+  background-color: #4084f8;
+  padding: 10px 50px;
+  border-radius: 33px;
+  margin: 1rem 0 2rem;
+  font-family: "regular";
+  font-size: 15px;
+  box-shadow: unset;
+  transition: 0.7s ease-in-out;
+}
+.tab-content .password {
+  padding: 0 1rem;
+}
+
+.tab-content .password .btn-success:hover {
+  background-color: transparent;
+  color: #4084f8 !important;
+  border: 1px solid #4084f8;
+  transition: 0.7s ease-in-out;
+}
+.notification {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.notification .details-notification h5 {
+  font-family: "regular";
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+.notification .details-notification p {
+  font-family: "regular";
+  font-size: 15px;
+  color: #656565;
+}
+.notification .details-notification {
+  padding-right: 1rem;
+  width: 80%;
+}
+
+
+.nav-item {
+  transition: 0.7s;
+}
+.shape-tab svg {
+  color: #b2b2cd !important;
+  transition: 0.7s;
+}
+/* icon */
+svg.svg-inline--fa.fa-phone.te {
+  position: absolute;
+  top: 99px;
+  color: #575a596b;
+}
+.name {
+  position: relative;
+}
+.name svg {
+  color: #575a596b;
+}
+svg.svg-inline--fa.fa-user.po {
+  position: absolute;
+  top: 14px;
+  right: 13px;
+  color: #575a596b;
+}
+svg.svg-inline--fa.fa-phone.te {
+  position: absolute;
+  top: 75px;
+  right: 13px;
+  color: #575a596b;
+}
+svg.svg-inline--fa.fa-envelope.ma {
+  position: absolute;
+  top: 133px;
+  right: 13px;
+  color: #575a596b;
+}
+.crad-lesson-set {
+  margin-top: 43px;
+  border: 1px solid #00000024;
+  padding: 1rem;
+  border-radius: 9px;
+}
+.comti h4 {
+  font-family: "regular";
+  margin-top: 25px;
+}
+button.btn.btn-secondary.dropdown-toggle.set {
+  border: 1px solid #00000026;
+  padding: 9px 3px;
+}
+.las svg {
+  color: #8c8c8c;
+  font-size: 1.2rem !important;
+}
+
+svg.svg-inline--fa.fa-user.po {
+  position: absolute;
+  top: 14px;
+  right: 13px;
+  color: #575a596b;
+}
+.change-password {
+  padding: 2rem;
+}
+#lockIcon-now {
+  position: absolute;
+  top: 45px;
+  right: -12px;
+}
+#lockIcon-now-1 {
+  position: absolute;
+  top: 45px;
+  right: -12px;
+}
+svg.svg-inline--fa.fa-unlock {
+  position: absolute;
+  top: 54px;
+  right: 10px;
+  color: #4084f8;
+}
+.change-password h4 {
+  font-family: "regular";
+}
+.change-password label {
+  font-family: "regular";
+}
+h4.h4 {
+  margin: 2rem;
+  font-family: "regular";
+  color: #595d64;
+}
+
 @media only screen and (max-width: 1440px) {
   .sidebar.open,
   .sidebar.opened {
@@ -1389,7 +1878,7 @@ button.btn.PrimaryButton:hover {
 
   .sidebar .nav-pills {
     width: 30%;
-    background-color: #06797e;
+    background-color: #4084f8;
     padding: 2rem 1rem;
   }
 
