@@ -230,7 +230,7 @@ html {
 }
 .sidebar .nav-pills .nav-item .nav-link.active {
   background-color: #4084f8;
-color: white;
+  color: white;
 }
 .sidebar .nav-pills .nav-item .nav-link.active span {
   font-family: "semibold";
@@ -1300,7 +1300,6 @@ button.btn.btn-primary.fond:hover {
   background-color: #4084f8; /* Background color on hover */
 }
 
-
 .nav-item:hover .nav-link span,
 .nav-item:hover .nav-link {
   color: white !important; /* Text and icon color on hover */
@@ -1719,7 +1718,6 @@ input.form-control {
   width: 80%;
 }
 
-
 .nav-item {
   transition: 0.7s;
 }
@@ -1964,7 +1962,7 @@ h4.h4 {
   button.accordion-button.collapsed {
     padding: 0;
   }
-  
+
   .more h5 {
     font-size: 0.8rem;
   }
@@ -1987,5 +1985,8 @@ h4.h4 {
   .parent-logo-main {
     flex-wrap: wrap;
     flex-direction: column-reverse;
-}
+  }
+  .icons {
+    gap: 15px;
+  }
 }
