@@ -154,302 +154,300 @@
         <div class="content">
           <div class="container">
             <div class="sit">
-             
-                <h4 class="h4">الأعددات</h4>
+              <h4 class="h4">الأعددات</h4>
 
-                <div class="row">
-                  <div class="col-lg-3 col-md-12 col-12">
-                    <div
-                      class="nav flex-column nav-pills shape-tab"
-                      id="v-pills-tab"
-                      role="tablist"
-                      aria-orientation="vertical"
+              <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+                  <div
+                    class="nav flex-column nav-pills shape-tab"
+                    id="v-pills-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <button
+                      class="nav-link active"
+                      id="v-pills-home-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-home"
+                      aria-selected="true"
                     >
-                      <button
-                        class="nav-link active"
-                        id="v-pills-home-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#v-pills-home"
-                        type="button"
-                        role="tab"
-                        aria-controls="v-pills-home"
-                        aria-selected="true"
-                      >
-                        <div class="seting">
-                          <i class="fa-regular fa-user"></i>
-                          <h5>اعدادات الحساب</h5>
-                        </div>
-                      </button>
+                      <div class="seting">
+                        <i class="fa-regular fa-user"></i>
+                        <h5>اعدادات الحساب</h5>
+                      </div>
+                    </button>
 
-                      <button
-                        class="nav-link"
-                        id="v-pills-password-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#v-pills-password"
-                        type="button"
-                        role="tab"
-                        aria-controls="v-pills-password"
-                        aria-selected="false"
-                      >
-                        <div class="seting">
-                          <i class="fa-solid fa-unlock-keyhole"></i>
-                          <h5>تغيير كلمة المرور</h5>
-                        </div>
-                      </button>
-                      <button
-                        class="nav-link"
-                        id="v-pills-notification-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#v-pills-notification"
-                        type="button"
-                        role="tab"
-                        aria-controls="v-pills-notification"
-                        aria-selected="false"
-                      >
-                        <div class="seting">
-                          <i class="fa-regular fa-bell"></i>
-                          <h5>الاشعارات</h5>
-                        </div>
-                      </button>
+                    <button
+                      class="nav-link"
+                      id="v-pills-password-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-password"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-password"
+                      aria-selected="false"
+                    >
+                      <div class="seting">
+                        <i class="fa-solid fa-unlock-keyhole"></i>
+                        <h5>تغيير كلمة المرور</h5>
+                      </div>
+                    </button>
+                    <button
+                      class="nav-link"
+                      id="v-pills-notification-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-notification"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-notification"
+                      aria-selected="false"
+                    >
+                      <div class="seting">
+                        <i class="fa-regular fa-bell"></i>
+                        <h5>الاشعارات</h5>
+                      </div>
+                    </button>
 
-                      <button
-                        class="nav-link"
-                        type="button"
-                        data-bs-toggle="modal"
-                        data-bs-target="#out"
-                      >
-                        <div class="seting">
-                          <i class="fa-solid fa-right-from-bracket out"></i>
-                          <h5>تسجيل الخروج</h5>
+                    <button
+                      class="nav-link"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#out"
+                    >
+                      <div class="seting">
+                        <i class="fa-solid fa-right-from-bracket out"></i>
+                        <h5>تسجيل الخروج</h5>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="modal" id="out" tabindex="-1">
+                    <div class="modal-dialog out">
+                      <div class="modal-content">
+                        <div class="modal-header"></div>
+                        <div class="modal-body out">
+                          <h4>هل تريد تسجيل الخروج؟</h4>
+
+                          <button type="submit" class="btn PrimaryButton">
+                            تأكيد
+                          </button>
+
+                          <button type="submit" class="btn PrimaryButton">
+                            الغاء
+                          </button>
                         </div>
-                      </button>
-                    </div>
-                    <div class="modal" id="out" tabindex="-1">
-                      <div class="modal-dialog out">
-                        <div class="modal-content">
-                          <div class="modal-header"></div>
-                          <div class="modal-body out">
-                            <h4>هل تريد تسجيل الخروج؟</h4>
 
-                            <button type="submit" class="btn PrimaryButton">
-                              تأكيد
-                            </button>
-
-                            <button type="submit" class="btn PrimaryButton">
-                              الغاء
-                            </button>
-                          </div>
-
-                          <div class="modal-footer"></div>
-                        </div>
+                        <div class="modal-footer"></div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-9 col-md-12 col-12">
-                    <div class="tab-content" id="v-pills-tabContent">
-                      <!-- seting account -->
-                      <div
-                        class="tab-pane fade show active"
-                        id="v-pills-home"
-                        role="tabpanel"
-                        aria-labelledby="v-pills-home-tab"
-                      >
-                        <div class="head-tab">
-                          <h6>اعدادات الحساب</h6>
-                        </div>
-                        <div class="name">
-                          <!-- uplod img -->
-                          <div class="col-lg-3 col-md-12 col-12">
-                            <div class="container">
-                              <div class="avatar-upload">
-                                <div class="avatar-edit">
-                                  <div class="col-lg-12 col-md-12 col-12">
-                                    <input
-                                      type="file"
-                                      id="imageUpload"
-                                      accept=".png, .jpg, .jpeg"
-                                    />
-                                    <label for="imageUpload" class="btn">
-                                      اضافة صورة
-                                    </label>
-                                  </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-12">
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <!-- seting account -->
+                    <div
+                      class="tab-pane fade show active"
+                      id="v-pills-home"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-home-tab"
+                    >
+                      <div class="head-tab">
+                        <h6>اعدادات الحساب</h6>
+                      </div>
+                      <div class="name">
+                        <!-- uplod img -->
+                        <div class="col-lg-3 col-md-12 col-12">
+                          <div class="container">
+                            <div class="avatar-upload">
+                              <div class="avatar-edit">
+                                <div class="col-lg-12 col-md-12 col-12">
+                                  <input
+                                    type="file"
+                                    id="imageUpload"
+                                    accept=".png, .jpg, .jpeg"
+                                  />
+                                  <label for="imageUpload" class="btn">
+                                    اضافة صورة
+                                  </label>
                                 </div>
-                                <div class="avatar-preview">
-                                  <div id="imagePreview" class="img"></div>
-                                </div>
+                              </div>
+                              <div class="avatar-preview">
+                                <div id="imagePreview" class="img"></div>
                               </div>
                             </div>
                           </div>
-                          <script>
-                            function readURL(input) {
-                              if (input.files && input.files[0]) {
-                                var reader = new FileReader();
-                                reader.onload = function (e) {
-                                  document.getElementById(
-                                    "imagePreview"
-                                  ).style.backgroundImage =
-                                    "url(" + e.target.result + ")";
-                                  document.getElementById(
-                                    "imagePreview"
-                                  ).style.display = "none";
-                                  document.getElementById(
-                                    "imagePreview"
-                                  ).style.display = "block";
-                                };
-                                reader.readAsDataURL(input.files[0]);
-                              }
+                        </div>
+                        <script>
+                          function readURL(input) {
+                            if (input.files && input.files[0]) {
+                              var reader = new FileReader();
+                              reader.onload = function (e) {
+                                document.getElementById(
+                                  "imagePreview"
+                                ).style.backgroundImage =
+                                  "url(" + e.target.result + ")";
+                                document.getElementById(
+                                  "imagePreview"
+                                ).style.display = "none";
+                                document.getElementById(
+                                  "imagePreview"
+                                ).style.display = "block";
+                              };
+                              reader.readAsDataURL(input.files[0]);
                             }
-                          </script>
-                          <!--uplod img  -->
+                          }
+                        </script>
+                        <!--uplod img  -->
 
-                          <div class="col-lg-7 col-md-12 col-12">
-                            <div class="control-icon">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="phone"
-                                placeholder="الاسم كاملا"
-                              />
-                              <i class="fa-regular fa-user right"></i>
-                            </div>
-                            <div class="control-icon">
-                              <input
-                                type="number"
-                                class="form-control"
-                                id="phone"
-                                placeholder="رقم الموبايل"
-                              />
-                              <i class="fa-solid fa-phone right"></i>
-                            </div>
-                            <div class="control-icon">
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="phone"
-                                placeholder="البريد الألكتروني"
-                              />
-                              <i class="fa-regular fa-envelope right"></i>
-                            </div>
-                            <button type="button" class="btn btn-success">
-                              حفظ
-                            </button>
+                        <div class="col-lg-7 col-md-12 col-12">
+                          <div class="control-icon">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="phone"
+                              placeholder="الاسم كاملا"
+                            />
+                            <i class="fa-regular fa-user right"></i>
+                          </div>
+                          <div class="control-icon">
+                            <input
+                              type="number"
+                              class="form-control"
+                              id="phone"
+                              placeholder="رقم الموبايل"
+                            />
+                            <i class="fa-solid fa-phone right"></i>
+                          </div>
+                          <div class="control-icon">
+                            <input
+                              type="email"
+                              class="form-control"
+                              id="phone"
+                              placeholder="البريد الألكتروني"
+                            />
+                            <i class="fa-regular fa-envelope right"></i>
+                          </div>
+                          <button type="button" class="btn btn-success">
+                            حفظ
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- sons -->
+
+                    <!-- My-achievements -->
+
+                    <!-- massage -->
+
+                    <!-- pass -->
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-password"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-password-tab"
+                    >
+                      <div class="head-tab">
+                        <h6>تغير كلمة المرور</h6>
+                      </div>
+                      <div class="change-password">
+                        <div class="col-lg-6 col-md-12 col-11">
+                          <div class="control-icon-pass">
+                            <label for="">كلمة المرور الجديده</label>
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="password-now"
+                              placeholder="كلمة السر"
+                            />
+                            <i class="fa-solid fa-unlock"></i>
+                            <span
+                              class="lock-icon"
+                              onclick="togglePasswordVisibilitynow()"
+                            >
+                              <i id="lockIcon-now" class="fa-solid fa-eye"></i>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-11">
+                          <div class="control-icon-pass">
+                            <label for="">تأكيد كلمة المرور</label>
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="password-now-1"
+                              placeholder="كلمة السر"
+                            />
+                            <i class="fa-solid fa-unlock"></i>
+                            <span
+                              class="lock-icon"
+                              onclick="togglePasswordVisibility()"
+                            >
+                              <i
+                                id="lockIcon-now-1"
+                                class="fa-solid fa-eye"
+                              ></i>
+                            </span>
                           </div>
                         </div>
                       </div>
-                      <!-- sons -->
+                    </div>
 
-                      <!-- My-achievements -->
-
-                      <!-- massage -->
-
-                      <!-- pass -->
-                      <div
-                        class="tab-pane fade"
-                        id="v-pills-password"
-                        role="tabpanel"
-                        aria-labelledby="v-pills-password-tab"
-                      >
-                        <div class="change-password">
-                          <h4>تغير كلمة المرور</h4>
-                          <div class="col-lg-6 col-md-12 col-11">
-                            <div class="control-icon-pass">
-                              <label for="">كلمة المرور الجديده</label>
-                              <input
-                                type="password"
-                                class="form-control"
-                                id="password-now"
-                                placeholder="كلمة السر"
-                              />
-                              <i class="fa-solid fa-unlock"></i>
-                              <span
-                                class="lock-icon"
-                                onclick="togglePasswordVisibilitynow()"
-                              >
-                                <i
-                                  id="lockIcon-now"
-                                  class="fa-solid fa-eye"
-                                ></i>
-                              </span>
-                            </div>
-                          </div>
-                          <div class="col-lg-6 col-md-12 col-11">
-                            <div class="control-icon-pass">
-                              <label for="">تأكيد كلمة المرور</label>
-                              <input
-                                type="password"
-                                class="form-control"
-                                id="password-now-1"
-                                placeholder="كلمة السر"
-                              />
-                              <i class="fa-solid fa-unlock"></i>
-                              <span
-                                class="lock-icon"
-                                onclick="togglePasswordVisibility()"
-                              >
-                                <i
-                                  id="lockIcon-now-1"
-                                  class="fa-solid fa-eye"
-                                ></i>
-                              </span>
-                            </div>
-                          </div>
+                    <!-- notification -->
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-notification"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-notification-tab"
+                    >
+                      <div class="head-tab">
+                        <h6>الاشعارات</h6>
+                      </div>
+                      <div class="notification">
+                        <div class="img-notification">
+                          <img src="mida/notification1.png" alt="" />
+                        </div>
+                        <div class="details-notification">
+                          <h5>
+                            اقترب موعد الدرس المباشر مع الشيخ أحمد <br />
+                            عبد المنعم , استعد بالمراجعة
+                            <img src="mida/imog.png" alt="" />
+                          </h5>
+                          <p>منذ 10 دقائق</p>
                         </div>
                       </div>
-
-                      <!-- notification -->
-                      <div
-                        class="tab-pane fade"
-                        id="v-pills-notification"
-                        role="tabpanel"
-                        aria-labelledby="v-pills-notification-tab"
-                      >
-                        <div class="head-tab">
-                          <h6>الاشعارات</h6>
+                      <div class="notification">
+                        <div class="img-notification">
+                          <img src="mida/notification2.png" alt="" />
                         </div>
-                        <div class="notification">
-                          <div class="img-notification">
-                            <img src="mida/notification1.png" alt="" />
-                          </div>
-                          <div class="details-notification">
-                            <h5>
-                              اقترب موعد الدرس المباشر مع الشيخ أحمد <br />
-                              عبد المنعم , استعد بالمراجعة
-                              <img src="mida/imog.png" alt="" />
-                            </h5>
-                            <p>منذ 10 دقائق</p>
-                          </div>
-                        </div>
-                        <div class="notification">
-                          <div class="img-notification">
-                            <img src="mida/notification2.png" alt="" />
-                          </div>
-                          <div class="details-notification">
-                            <h5>
-                              فاتك موعد الدرس تواصل مع معلمك واحصل على <br />
-                              موعد جديد
-                              <img src="mida/imog2.png" alt="" />
-                            </h5>
-                            <p>منذ 10 دقائق</p>
-                          </div>
-                        </div>
-                        <div class="notification">
-                          <div class="img-notification">
-                            <img src="mida/notification3.png" alt="" />
-                          </div>
-                          <div class="details-notification">
-                            <h5>
-                              لديك امتحان قريبا تم تحديدة وهو يوم 22 من فبراير ,
-                              قم بمراجعة الجزء الخاص <br />
-                              لتحصل على اعلى الدرجات
-                              <img src="mida/imog3.png" alt="" />
-                            </h5>
-                            <p>منذ 10 دقائق</p>
-                          </div>
+                        <div class="details-notification">
+                          <h5>
+                            فاتك موعد الدرس تواصل مع معلمك واحصل على <br />
+                            موعد جديد
+                            <img src="mida/imog2.png" alt="" />
+                          </h5>
+                          <p>منذ 10 دقائق</p>
                         </div>
                       </div>
+                      <div class="notification">
+                        <div class="img-notification">
+                          <img src="mida/notification3.png" alt="" />
+                        </div>
+                        <div class="details-notification">
+                          <h5>
+                            لديك امتحان قريبا تم تحديدة وهو يوم 22 من فبراير ,
+                            قم بمراجعة الجزء الخاص <br />
+                            لتحصل على اعلى الدرجات
+                            <img src="mida/imog3.png" alt="" />
+                          </h5>
+                          <p>منذ 10 دقائق</p>
+                        </div>
+                      </div>
+                    </div>
 
-                      <!-- log out -->
-                      <!-- <div
+                    <!-- log out -->
+                    <!-- <div
                       class="tab-pane fade"
                       id="v-pills-settings"
                       role="tabpanel"
@@ -457,10 +455,9 @@
                     >
                       out
                     </div> -->
-                    </div>
                   </div>
                 </div>
-             
+              </div>
             </div>
           </div>
         </div>
