@@ -188,12 +188,12 @@
                     id="password-now"
                     placeholder="كلمة السر"
                   />
-                  <i class="fa-solid fa-unlock lock"></i>
+                  <i class="fa-solid fa-unlock lock nasra"></i>
                   <span
                     class="lock-icon"
                     onclick="togglePasswordVisibilitynow()"
                   >
-                    <i id="lockIcon-now" class="fa-solid fa-eye"></i>
+                    <i id="lockIcon-now-2" class="fa-solid fa-eye"></i>
                   </span>
                 </div>
               </div>
@@ -270,7 +270,7 @@
     <script>
       function togglePasswordVisibilitynow() {
         var passwordInput = document.getElementById("password-now");
-        var lockIcon = document.getElementById("lockIcon-now");
+        var lockIcon = document.getElementById("lockIcon-now-2");
 
         if (passwordInput.type === "password") {
           passwordInput.type = "text";

@@ -719,6 +719,7 @@ input::-webkit-inner-spin-button {
 .sign-in .img-sign {
   margin: 0 auto;
   text-align: center;
+  animation: keep 6s linear infinite;
 }
 .sign-in .img-sign img {
   width: 85%;
@@ -769,6 +770,7 @@ input::-webkit-inner-spin-button {
   background-color: rgba(83, 146, 251, 1);
   margin: 1rem 0;
   padding: 0.5rem;
+  font-family: "regular";
 }
 .forgetpass .style-bord form a {
   text-decoration: none;
@@ -1810,6 +1812,25 @@ h4.h4 {
   font-family: "regular";
   color: #595d64;
 }
+button#closeSidebar {
+  background-color: aliceblue;
+  border: 1px solid;
+  margin-inline-start: auto;
+  border-radius: 50%;
+  display: none;
+}
+svg.svg-inline--fa.fa-unlock.nasra {
+  top: 8px;
+}
+
+
+label.form-check-label {
+  margin-top: 9px;
+  font-family: "regular";
+}
+label.col-form-label {
+  font-family: 'regular';
+}
 
 @media only screen and (max-width: 1440px) {
   .sidebar.open,
@@ -1943,6 +1964,60 @@ h4.h4 {
     width: 95%;
   }
 }
+@media (max-width: 425px) {
+  .card-curses-1 {
+    flex-wrap: wrap;
+  }
+  header .join-account {
+    flex-direction: column;
+  }
+  .prg p {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .adress {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .adress h4 {
+    font-size: 1rem;
+    text-align: start;
+  }
+  button.accordion-button.collapsed {
+    padding: 0;
+  }
+
+  .more h5 {
+    font-size: 0.8rem;
+  }
+  .details-body {
+    gap: 3px;
+  }
+  .accordion-body {
+    padding: 0.5rem !important;
+  }
+  video {
+    margin-top: 12px;
+  }
+
+  button#dropdownMenuButton1 {
+    display: block;
+  }
+  .card-curses-1 {
+    flex-wrap: wrap;
+  }
+  .parent-logo-main {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .icons {
+    gap: 20px;
+  }
+  button#closeSidebar {
+    display: block;
+  }
+}
+
 @media (max-width: 400px) {
   header .join-account {
     flex-direction: column;
@@ -1988,5 +2063,8 @@ h4.h4 {
   }
   .icons {
     gap: 20px;
+  }
+  button#closeSidebar {
+    display: block;
   }
 }
